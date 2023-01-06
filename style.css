@@ -4,10 +4,8 @@
 }
 
 .body {
-  background: black;
+  background: rgb(248, 8, 8);
 }
-
-
 
 .frame {
   border-radius: 5px;
