@@ -30,13 +30,6 @@ class SlideStories {
     }
   }
 
-  addNavigation() {
-    const nextBtn = this.slide.querySelector('.slide-next');
-    const prevBtn = this.slide.querySelector('.slide-prev');
-    nextBtn.addEventListener('click', this.next);
-    prevBtn.addEventListener('click', this.prev);
-  }
-
   addThumbItems() {
     this.items.forEach(() => (this.thumb.innerHTML += `<span></span>`));
     this.thumbItems = Array.from(this.thumb.children);
